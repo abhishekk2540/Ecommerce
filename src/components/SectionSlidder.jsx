@@ -25,7 +25,7 @@ const SectionSlidder = () => {
             delay: 3000,
             disableOnInteraction: false,
           }}
-          className="w-[400px] h-[500px] mx-auto"
+          className="w-[400px] h-[500px] mx-auto "
         >
           {mainImages.map((img, i) => (
             <SwiperSlide key={i} className={swiperSlideClass}>
